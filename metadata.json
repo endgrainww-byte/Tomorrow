@@ -1,0 +1,6 @@
+{
+  "name": "Tomorrow",
+  "description": "AI-powered smart voice & text reminder utility that transforms unstructured thoughts and brain dumps into structured, actionable tasks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

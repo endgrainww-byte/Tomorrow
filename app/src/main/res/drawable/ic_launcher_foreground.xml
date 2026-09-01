@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing sunrise arc / horizon -->
+    <path
+        android:pathData="M30,68 C38,58 70,58 78,68"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#F59E0B" />
+
+    <!-- Sparkle / AI Star top right -->
+    <path
+        android:pathData="M73,34 L75,39 L80,41 L75,43 L73,48 L71,43 L66,41 L71,39 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="66"
+                android:startY="34"
+                android:endX="80"
+                android:endY="48"
+                android:type="linear">
+                <item android:color="#FCD34D" android:offset="0.0" />
+                <item android:color="#F59E0B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized modern clock / checkmark ring -->
+    <path
+        android:pathData="M54,28 C68.36,28 80,39.64 80,54 C80,68.36 68.36,80 54,80 C39.64,80 28,68.36 28,54 C28,42.5 35.5,32.8 46,29.5"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeColor="#EEF2FF" />
+
+    <!-- Dynamic Checkmark / Clock Hands in vibrant gradient -->
+    <path
+        android:pathData="M42,54 L51,63 L69,45"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="42"
+                android:startY="45"
+                android:endX="69"
+                android:endY="63"
+                android:type="linear">
+                <item android:color="#67E8F9" android:offset="0.0" />
+                <item android:color="#818CF8" android:offset="0.5" />
+                <item android:color="#C084FC" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
